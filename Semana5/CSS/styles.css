@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    background-color:rgb(244, 246, 249);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+   background-color: blue;
+   color: white;
+   text-align: center;
+   padding: 10px;
+}
+
+#caja {
+    width: 80%;
+    height: 500px;
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 8px;
+    
+}

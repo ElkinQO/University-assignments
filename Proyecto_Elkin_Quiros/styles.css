@@ -1,0 +1,142 @@
+body{
+    margin: 4px;
+    background-color:rgb(244, 246, 249);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(117, 117, 219);
+    color: rgb(231, 225, 225);
+    border: 2px solid;
+
+
+     
+}
+
+
+
+#imagen {
+    width: 180px;
+    height: 180px;
+    
+}
+
+.animales {
+    display: flex;
+    flex-wrap: wrap;        
+    justify-content: center; 
+    gap: 70px;               
+    padding: 20px;
+}
+
+
+.perro1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;             
+    padding: 20px;
+    background-color: rgb(222, 222, 231);
+    color: rgb(59, 54, 54);
+    border: 2px solid black;
+    border-radius: 10px;    
+}
+
+.perroi {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
+.perro2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;              
+    padding: 20px;
+    background-color: rgb(222, 222, 231);
+    color: rgb(59, 54, 54);
+    border: 2px solid black;
+    border-radius: 10px;    
+}
+.perroi2 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+.perro3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;              
+    padding: 20px;
+    background-color: rgb(222, 222, 231);
+    color: rgb(59, 54, 54);
+    border: 2px solid black;
+    border-radius: 10px;    
+}
+.perroi3 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; 
+    border-radius: 10px;
+}
+.gato1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;              
+    padding: 20px;
+    background-color: rgb(222, 222, 231);
+    color: rgb(59, 54, 54);
+    border: 2px solid black;
+    border-radius: 10px;    
+}
+.gatoi1 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+.gato2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;              
+    padding: 20px;
+    background-color: rgb(222, 222, 231);
+    color: rgb(59, 54, 54);
+    border: 2px solid black;
+    border-radius: 10px;    
+}
+.gatoi2 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+.gato3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;              
+    padding: 20px;
+    background-color: rgb(222, 222, 231);
+    color: rgb(59, 54, 54);
+    border: 2px solid black;
+    border-radius: 10px;    
+}
+.gatoi3 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; 
+    border-radius: 10px;
+}
