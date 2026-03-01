@@ -17,6 +17,19 @@ header {
      
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(117, 117, 219);
+    color: rgb(231, 225, 225);
+    border: 2px solid;
+
+
+     
+}
+
 
 
 #imagen {
