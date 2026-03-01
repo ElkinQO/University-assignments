@@ -1,6 +1,6 @@
-body{
+body {
     margin: 4px;
-    background-color:rgb(244, 246, 249);
+    background-color: rgb(242, 242, 247);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,7 +14,7 @@ header {
     border: 2px solid;
 
 
-     
+
 }
 
 footer {
@@ -24,7 +24,33 @@ footer {
     border: 2px solid;
 
 
-     
+
+}
+
+#cajap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+}
+
+#video {
+    display: flex;
+   
+    height: 400px;
+    justify-content: center;
+    padding: 10px;
+}
+
+#boton {
+    display: inline-block;
+    
+    padding: 8px 15px;
+    background-color: rgb(117, 117, 219);
+    color: rgb(231, 225, 225);
+    border-radius: 10px;
+    border: 2px solid rgb(160, 131, 131);
 }
 
 
@@ -32,14 +58,14 @@ footer {
 #imagen {
     width: 180px;
     height: 180px;
-    
+
 }
 
 .animales {
     display: flex;
-    flex-wrap: wrap;        
-    justify-content: center; 
-    gap: 70px;               
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
     padding: 20px;
 }
 
@@ -48,70 +74,75 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;             
+    width: 300px;
     padding: 20px;
     background-color: rgb(222, 222, 231);
     color: rgb(59, 54, 54);
     border: 2px solid black;
-    border-radius: 10px;    
+    border-radius: 10px;
 }
 
 .perroi {
     width: 300px;
     height: 300px;
-    object-fit: cover; 
-    border-radius: 10px; 
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .perro2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;              
+    width: 300px;
     padding: 20px;
     background-color: rgb(222, 222, 231);
     color: rgb(59, 54, 54);
     border: 2px solid black;
-    border-radius: 10px;    
+    border-radius: 10px;
 }
+
 .perroi2 {
     width: 300px;
     height: 300px;
-    object-fit: cover; 
-    border-radius: 10px; 
+    object-fit: cover;
+    border-radius: 10px;
 }
+
 .perro3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;              
+    width: 300px;
     padding: 20px;
     background-color: rgb(222, 222, 231);
     color: rgb(59, 54, 54);
     border: 2px solid black;
-    border-radius: 10px;    
+    border-radius: 10px;
 }
+
 .perroi3 {
     width: 300px;
     height: 300px;
-    object-fit: cover; 
+    object-fit: cover;
     border-radius: 10px;
 }
+
 .gato1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;              
+    width: 300px;
     padding: 20px;
     background-color: rgb(222, 222, 231);
     color: rgb(59, 54, 54);
     border: 2px solid black;
-    border-radius: 10px;    
+    border-radius: 10px;
 }
+
 .gatoi1 {
     width: 300px;
     height: 300px;
-    object-fit: cover; 
+    object-fit: cover;
     border-radius: 10px;
 }
 
@@ -119,17 +150,18 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;              
+    width: 300px;
     padding: 20px;
     background-color: rgb(222, 222, 231);
     color: rgb(59, 54, 54);
     border: 2px solid black;
-    border-radius: 10px;    
+    border-radius: 10px;
 }
+
 .gatoi2 {
     width: 300px;
     height: 300px;
-    object-fit: cover; 
+    object-fit: cover;
     border-radius: 10px;
 }
 
@@ -137,16 +169,17 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;              
+    width: 300px;
     padding: 20px;
     background-color: rgb(222, 222, 231);
     color: rgb(59, 54, 54);
     border: 2px solid black;
-    border-radius: 10px;    
+    border-radius: 10px;
 }
+
 .gatoi3 {
     width: 300px;
     height: 300px;
-    object-fit: cover; 
+    object-fit: cover;
     border-radius: 10px;
 }
