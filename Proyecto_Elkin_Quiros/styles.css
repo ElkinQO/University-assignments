@@ -9,7 +9,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 15px;
-    background-color: rgb(117, 117, 219);
+    background-color: rgb(122, 122, 175);
     color: rgb(231, 225, 225);
     border: 2px solid;
 
@@ -18,9 +18,9 @@ header {
 }
 
 footer {
-    padding: 10px;
-    background-color: rgb(117, 117, 219);
-    color: rgb(231, 225, 225);
+    padding: 5px;
+    background-color: rgb(119, 119, 150);
+    color: rgb(204, 197, 197);
     border: 2px solid;
 
 
@@ -37,7 +37,6 @@ footer {
 
 #video {
     display: flex;
-   
     height: 400px;
     justify-content: center;
     padding: 10px;
@@ -45,7 +44,6 @@ footer {
 
 #boton {
     display: inline-block;
-    
     padding: 8px 15px;
     background-color: rgb(117, 117, 219);
     color: rgb(231, 225, 225);
