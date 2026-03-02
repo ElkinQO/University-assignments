@@ -1,90 +1,96 @@
+
+
+/*El body es el cuepo de la pagina, aqui le damos sus propiedades como el margen, el color de fondo y la fuente.*/
+
 body {
-    margin: 4px;
-    background-color: rgb(242, 242, 247);
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 4px; /*Usamos el margin para darle un poco de espacio a su alrededor, para que no este tan pegado a los bordes de la pagina.*/
+    background-color: rgb(242, 242, 247); /*EL backgrund-color es para darle el color de fondo a la pagina.*/
+    font-family: Arial, Helvetica, sans-serif; /* El font-famyli es para darle un tipo de letra en especifico a la pagina*/
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px;
-    background-color: rgb(122, 122, 175);
-    color: rgb(231, 225, 225);
-    border: 2px solid;
+header { /* El header es el enbabezado de la pagina */
+    display: flex; /*Lo use para poder ordenar los elementos de formas separada*/
+    align-items: center;/* lo use para que los elementos se alineen al centro de forma vertical*/
+    justify-content: space-between; /*Es para que un elemento se mantenga a la derecha y otro a la izquierda*/
+    padding: 15px; /*El padding es para darle un poco de espacio a su alrededor, para que no este tan pegado a los bordes del header.*/
+    background-color: rgb(122, 122, 175); /*El background-color es para darle el color de fondo al header.*/
+    color: rgb(231, 225, 225); /*El color es para darle el color a las letras del header.*/
+    border: 2px solid; /*es para que el header tenga un borde, el 2px es el grueso del borde, y el solid es para que el borde sea solido.*/
 
 
 
 }
 
 footer {
-    padding: 10px;
-    text-align: center;
-    background-color: rgb(119, 119, 150);
-    color: rgb(204, 197, 197);
-    border: 2px solid;
+    padding: 10px; /*El padding es para darle un poco de espacio a su alrededor, para que no este tan pegado a los bordes del footer.*/
+    text-align: center; /*El text-align es para alinear el texto al centro del footer.*/
+    background-color: rgb(119, 119, 150); /*El background-color es para darle el color de fondo al footer.*/
+    color: rgb(204, 197, 197); /*El color es para darle el color a las letras del footer.*/
+    border: 2px solid; /*es para que el footer tenga un borde, el 2px es el grueso del borde, y el solid es para que el borde sea solido.*/
 
 
 
 }
 
-#cajap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+#cajap { /*Aqui estamos llamando al div con el id cajap, para darle algunas prpiedades.*/
+    display: flex; /*Lo use para poder ordenar los elementos de formas separada*/
+    flex-direction: column; /*Lo use para que los elementos se ordenen de forma vertical, es decir, uno debajo del otro.*/
+    align-items: center; /* Es para que los elementos se alineen al centro de forma vertical*/
+    padding: 20px; /*El padding es para darle un poco de espacio a su alrededor, para que no este tan pegado a los bordes del div.*/
 
 }
 
-#video {
-    display: flex;
-    height: 400px;
-    justify-content: center;
-    padding: 10px;
+#video { /*Aqui estamos llamando al video con el id video, para darle algunas prpiedades.*/
+    display: flex; /*Lo use para poder ordenar los elementos de formas separada*/
+    height: 400px; /* Aqui le estamos dando tamaño al video (height es para darle la altura al video).*/
+    justify-content: center; /*Es para que el video se mantenga al centro del div.*/
+    padding: 10px; /*El padding es para darle un poco de espacio a su alrededor, para que no este tan pegado a los bordes del div.*/
 }
 
 #boton {
-    display: inline-block;
-    padding: 8px 15px;
+    display: inline-block; /*es una forma de convertir algo (como un enlace) en una cajita personalizable sin que ocupe toda la línea.*/
+    padding: 8px 15px; /*En este caso usamos el padding de dos formas, el primero el vertical y el segundo el horizontal.*/
     background-color: rgb(117, 117, 219);
     color: rgb(231, 225, 225);
-    border-radius: 10px;
+    border-radius: 10px; /*El border-radius es para darle bordes redondeados al boton, el 10px es el grado de redondez que queremos darle.*/
     border: 2px solid rgb(160, 131, 131);
 }
 
-#imagen {
-    width: 180px;
-    height: 180px;
+#imagen { /*Aqui estamos llamando a la imagen con el id imagen (Imagen portada).*/
+    width: 180px; /*Ancho de la imagen*/
+    height: 180px; /*Altura de la imagen*/
 
 }
 
-.animales {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 70px;
-    padding: 20px;
+.animales { /*Esta es la caja que contiene a las mascotas en adopción.*/
+    display: flex; /*Lo use para poder ordenar los elementos de formas separada*/
+    flex-wrap: wrap; /* lo use para que los elementos se puedan mover a la siguiente linea si no hay suficiente espacio en la linea actual.*/
+    justify-content: center; /*Es para que los elementos se mantengan al centro del div.*/
+    gap: 70px; /*E gap le da un espacio entre los elementos que estan dentro del div, en este caso entre las mascotas en adopción.*/
+    padding: 20px; /*El padding es para darle un poco de espacio a su alrededor, para que no este tan pegado a los bordes del div.*/
 }
 
 
-.perro1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 300px;
-    padding: 20px;
-    background-color: rgb(222, 222, 231);
-    color: rgb(59, 54, 54);
-    border: 2px solid black;
-    border-radius: 10px;
+.perro1 { /*Esta es la caja que contiene a la primera mascota en adopción, en este caso el perro Rocky.*/
+    display: flex; /*Lo use para poder ordenar los elementos de formas separada*/
+    flex-direction: column; /*Lo use para que los elementos se ordenen de forma vertical, es decir, uno debajo del otro.*/
+    align-items: center; /* Es para que los elementos se alineen al centro de forma vertical*/
+    width: 300px; /*Ancho de la caja que contiene a la mascota en adopción.*/
+    padding: 20px; /*El padding es para darle un poco de espacio a su alrededor, para que no este tan pegado a los bordes del div.*/
+    background-color: rgb(222, 222, 231); /*El background-color es para darle el color de fondo a la caja que contiene a la mascota en adopción.*/
+    color: rgb(59, 54, 54); /*El color es para darle el color a las letras de la caja que contiene a la mascota en adopción.*/
+    border: 2px solid black; /*es para que la caja que contiene a la mascota en adopción tenga un borde, el 2px es el grueso del borde, y el solid es para que el borde sea solido.*/
+    border-radius: 10px; /*El border-radius es para darle bordes redondeados a la caja que contiene a la mascota en adopción, el 10px es el grado de redondez que queremos darle.*/
 }
 
-.perroi {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
+.perroi { /*Esta es la imagen de la primera mascota en adopción, en este caso el perro Rocky.*/
+    width: 300px; /*Ancho de la imagen.*/
+    height: 300px; /*Altura de la imagen.*/
+    object-fit: cover; /*Ajusta la imagen para que cubra el espacio sin que se deforme.*/
+    border-radius: 10px; /*El border-radius es para darle bordes redondeados a la imagen de la mascota en adopción, el 10px es el grado de redondez que queremos darle.*/
 }
+
+/*Todas las mascotas en adopción tienen las mismas propiedades.*/
 
 .perro2 {
     display: flex;
@@ -182,12 +188,12 @@ footer {
 }
 
 #formulario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background-color: rgb(222, 222, 231);
-    color: rgb(59, 54, 54);
-    border: 2px solid black;
-    border-radius: 10px;
+    display: flex; /*Lo use para poder ordenar los elementos de formas separada*/
+    flex-direction: column; /*Lo use para que los elementos se ordenen de forma vertical, es decir, uno debajo del otro.*/
+    align-items: center; /* Es para que los elementos se alineen al centro de forma vertical*/
+    padding: 20px; /*El padding es para darle un poco de espacio a su alrededor, para que no este tan pegado a los bordes del div.*/
+    background-color: rgb(222, 222, 231); /*El background-color es para darle el color de fondo a la caja que contiene al formulario de contacto.*/
+    color: rgb(59, 54, 54); /*El color es para darle el color a las letras de la caja que contiene al formulario de contacto.*/
+    border: 2px solid black; /*es para que la caja que contiene al formulario de contacto tenga un borde, el 2px es el grueso del borde, y el solid es para que el borde sea solido.*/
+    border-radius: 10px; /*El border-radius es para darle bordes redondeados a la caja que contiene al formulario de contacto, el 10px es el grado de redondez que queremos darle.*/
 }
