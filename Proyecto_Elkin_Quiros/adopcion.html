@@ -16,11 +16,14 @@
     </header>
 
     <br> <!--Son los saltos de linea.-->
-    <a href="index.html" id="boton">Volver al Inicio</a> <!--Aqui estamos usando <a> para poder redirigir al usuario a la pagina de inicio (index).-->
+    <a href="index.html" id="boton">Volver al Inicio</a>
+    <!--Aqui estamos usando <a> para poder redirigir al usuario a la pagina de inicio (index).-->
 
-    <div class="animales"> <!--Estamos usando este div para poder agrupar los animales en adopción y ordenarlos de forma simetrica.-->
+    <div class="animales">
+        <!--Estamos usando este div para poder agrupar los animales en adopción y ordenarlos de forma simetrica.-->
 
-        <div class="perro1"> <!--Aqui usamos un div para poder organizar cada animal en adopción (cada animal tiene su div).-->
+        <div class="perro1">
+            <!--Aqui usamos un div para poder organizar cada animal en adopción (cada animal tiene su div).-->
             <img class="perroi" src="Rottweiler.jpg" alt=""> <!--Es la imagen del perro en adopción.-->
             <ul> <!--Usamos la etiqueta ul para poder tener la informacion de cada animal ordenada.-->
                 <h2>Rocky</h2>
@@ -28,7 +31,7 @@
                 <br> <!--Usamos el salto de linea para que no este tan pegado.-->
                 <li>Raza: Rottweiler</li>
             </ul>
-        <!-- Y asi lo vamos haciendo con cada animal en adopción, cada uno con su div y su imagen, y la informacion de cada animal ordenada con ul.-->
+            <!-- Y asi lo vamos haciendo con cada animal en adopción, cada uno con su div y su imagen, y la informacion de cada animal ordenada con ul.-->
 
         </div>
 
@@ -95,36 +98,60 @@
 
     </div>
 
-    <div id="formulario">  <!--Este div se encargará de contener el formulario de adopción.-->
+    <div id="formulario"> <!--Este div se encargará de contener el formulario de adopción.-->
 
-        <form action=> <!--El action nos dice a donde queremos enviar el formulario-->
+        <form action="enviar.html"> <!--El action nos dice a donde queremos enviar el formulario-->
             <label for="nombre">Nombre del adoptante:</label> <!--Este label es para el nombre del adoptante.-->
-            <input type="text" id="nombre" placeholder="Ej. Elkin Quirós"> <!--El input es para poder escribir en la pagina, y el placeholder es para dar una pista al usuario.-->
+            <input type="text" id="nombre" placeholder="Ej. Elkin Quirós" > </input>
+           <!-- <input type="text" id="nombre" placeholder="Ej. Elkin Quirós" required> </input> --> <!-- El required es para que el campo sea obligatorio (Este es un ejemplo).-->
+            <!--El input es para poder escribir en la pagina, y el placeholder es para dar una pista al usuario.-->
             <br> <!--Salto de linea para que no este tan pegado.-->
             <br>
-            <label for="email">Correo electronico:</label> <!--Este label es para el correo electronico del adoptante.-->
-            <input type="email" id="email" placeholder="Ej. elkinquiros@gmail.com"> <!--El input es para poder escribir en la pagina, y el placeholder es para dar una pista al usuario.-->
+            <label for="email">Correo electronico:</label>
+            <!--Este label es para el correo electronico del adoptante.-->
+            <input type="email" id="email" placeholder="Ej. elkinquiros@gmail.com"> </input>
+            <!--El input es para poder escribir en la pagina, y el placeholder es para dar una pista al usuario.-->
             <br>
             <br>
-            <label for="animal">¿A cual mascota quieres adoptar?:</label> <!--Este label le da informacion al usuario para saber que mascota adoptar.-->
-            <select id="animal" name="animal"> <!--Usamos el select para poder usar una lista, y el name es para darle un nombre a esa lista.-->
-                <option value="">Selecciona una mascota</option> <!--Usamos el option para crear la opcion dentro del menu de seleccion, y value lo crea.-->
-                <option value="Rocky">Rocky</option> <!--Cada option es una mascota en adopción, y el value es el nombre de esa mascota.-->
-                <option value="Luna">Luna</option> 
+
+            <label for="animal">¿A cual mascota quieres adoptar?:</label>
+            <!--Este label le da informacion al usuario para saber que mascota adoptar.-->
+            <select id="animal" name="animal">
+                <!--Usamos el select para poder usar una lista, y el name es para darle un nombre a esa lista.-->
+                <option value="mascotas">Selecciona una mascota</option>
+                <!--Usamos el option para crear la opcion dentro del menu de seleccion, y value lo crea.-->
+                <option value="Rocky">Rocky</option>
+                <!--Cada option es una mascota en adopción, y el value es el nombre de esa mascota.-->
+                <option value="Luna">Luna</option>
                 <option value="Toby">Toby</option>
                 <option value="Mini">Mini</option>
                 <option value="Max">Max</option>
                 <option value="Sol">Sol</option>
             </select><br><br> <!--Salto de linea para que no este tan pegado.-->
 
-            <input type="submit" value="Solicitar Adopción"> <!--El input de tipo submit es para enviar el formulario, y el value es el texto que aparecerá en el boton.-->
+            <label>¿Le cambiarás el nombre?</label><br> <!--Este label le da informacion al usuario para saber si le cambiará el nombre a la mascota o no.-->
+            <input type="radio" id="si" name="cambiar_nombre" value="si"></input> <!--El input de tipo radio es para que el usuario pueda elegir una opcion, y el name es para agrupar las opciones.-->
+            <label for="si">Sí</label>
+            <input type="radio" id="no" name="cambiar_nombre" value="no"> </input>
+            <label for="no">No</label> 
+
+            <br>
+            <br>
+
+            <label for="nuevo_nombre">¿Qué nombre le pondrás?</label> <!--  Le dice al usuario que le ponga un nombre a la mascota.-->
+            <input type="text" id="nuevo_nombre" placeholder="Escribe el nuevo nombre"> </input>
+
+            <br><br>
+
+            <input type="submit" value="Solicitar Adopción"> </input>
+            <!--El input de tipo submit es para enviar el formulario, y el value es el texto que aparecerá en el boton.-->
         </form>
 
 
 
     </div>
     <br>
-    
+
 
     <footer>
         <h2>Desarrollado por Elkin Quirós Olivares - 2026</h2>

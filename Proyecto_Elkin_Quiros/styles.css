@@ -48,6 +48,7 @@ footer {
 }
 
 #boton {
+    text-decoration: none; /* Quita el subrayado */
     display: inline-block; /*es una forma de convertir algo (como un enlace) en una cajita personalizable sin que ocupe toda la línea.*/
     padding: 8px 15px; /*En este caso usamos el padding de dos formas, el primero el vertical y el segundo el horizontal.*/
     background-color: rgb(117, 117, 219);
@@ -69,7 +70,6 @@ footer {
     gap: 70px; /*E gap le da un espacio entre los elementos que estan dentro del div, en este caso entre las mascotas en adopción.*/
     padding: 20px; /*El padding es para darle un poco de espacio a su alrededor, para que no este tan pegado a los bordes del div.*/
 }
-
 
 .perro1 { /*Esta es la caja que contiene a la primera mascota en adopción, en este caso el perro Rocky.*/
     display: flex; /*Lo use para poder ordenar los elementos de formas separada*/
@@ -197,3 +197,32 @@ footer {
     border: 2px solid black; /*es para que la caja que contiene al formulario de contacto tenga un borde, el 2px es el grueso del borde, y el solid es para que el borde sea solido.*/
     border-radius: 10px; /*El border-radius es para darle bordes redondeados a la caja que contiene al formulario de contacto, el 10px es el grado de redondez que queremos darle.*/
 }
+
+#header_enviar {
+    padding: 20px; /*El padding es para darle un poco de espacio a su alrededor, para que no este tan pegado a los bordes del header.*/
+    background-color: rgb(131, 131, 152); /*El background-color es para darle el color de fondo al header.*/
+    color: rgb(231, 225, 225); /*El color es para darle el color a las letras del header.*/
+    border: 2px solid black; /*es para que el header tenga un borde, el 2px es el grueso del borde, y el solid es para que el borde sea solido.*/
+
+}
+
+#body_enviar {
+    background-color: rgb(222, 222, 235); /*EL backgrund-color es para darle el color de fondo a la pagina.*/
+    font-family: Arial, Helvetica, sans-serif; /* El font-famyli es para darle un tipo de letra en especifico a la pagina*/
+}
+
+#imagen_enviar {
+    width: 900; /*Ancho de la imagen.*/
+    height: 700px; /*Altura de la imagen.*/
+    
+}
+#footer_enviar {
+    padding: 10px; /*El padding es para darle un poco de espacio a su alrededor, para que no este tan pegado a los bordes del footer.*/
+    margin-top: 10px; /*El margin es para darle un poco de espacio arriba del footer, para que no este tan pegado al borde inferior de la pagina*/
+    text-align: center; /*El text-align es para alinear el texto al centro del footer.*/
+    background-color: rgb(131, 131, 152); /*El background-color es para darle el color de fondo al footer.*/
+    color: rgb(231, 225, 225); /*El color es para darle el color a las letras del footer.*/
+    border: 2px solid; /*es para que el footer tenga un borde, el 2px es el grueso del borde, y el solid es para que el borde sea solido.*/
+
+}
+
